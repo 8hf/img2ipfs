@@ -92,7 +92,7 @@ $(document).ready(() => {
             }
 
             document.querySelector('.container').classList.add('start');
-            const api = 'https://quanvndzai-ipfs-server-1.hf.space/api/v0/add?pin=false';
+            const api = 'https://cdn.ipfsscan.io/api/v0/add?pin=false';
             const formData = new FormData();
             formData.append('file', file);
             const randomClass = Date.now().toString(36);
